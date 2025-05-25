@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer components {
+  .container {
+    align-items: center;
+    padding: auto;
+  }
+}
+
+.dark {
+  @apply bg-[#171923] text-white;
+}
